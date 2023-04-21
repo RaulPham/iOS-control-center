@@ -11,6 +11,10 @@
 		5ACE714629F2DCA50081346F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE714529F2DCA50081346F /* ContentView.swift */; };
 		5ACE714829F2DCA70081346F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE714729F2DCA70081346F /* Assets.xcassets */; };
 		5ACE714B29F2DCA70081346F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE714A29F2DCA70081346F /* Preview Assets.xcassets */; };
+		5ACE715529F2DD1A0081346F /* SliderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE715429F2DD1A0081346F /* SliderConfiguration.swift */; };
+		5ACE715729F2DE0A0081346F /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE715629F2DE0A0081346F /* ExtensionsView.swift */; };
+		5ACE715929F2E01E0081346F /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE715829F2E01E0081346F /* ControlView.swift */; };
+		5ACE715B29F2E5420081346F /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE715A29F2E5420081346F /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5ACE714529F2DCA50081346F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ACE714729F2DCA70081346F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ACE714A29F2DCA70081346F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ACE715429F2DD1A0081346F /* SliderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderConfiguration.swift; sourceTree = "<group>"; };
+		5ACE715629F2DE0A0081346F /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
+		5ACE715829F2E01E0081346F /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		5ACE715A29F2E5420081346F /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,9 @@
 			children = (
 				5ACE714329F2DCA50081346F /* iOSControlCenterApp.swift */,
 				5ACE714529F2DCA50081346F /* ContentView.swift */,
+				5ACE715329F2DCE10081346F /* Models */,
+				5ACE715229F2DCCF0081346F /* Views */,
+				5ACE715129F2DCC40081346F /* Helpers */,
 				5ACE714729F2DCA70081346F /* Assets.xcassets */,
 				5ACE714929F2DCA70081346F /* Preview Content */,
 			);
@@ -65,6 +76,31 @@
 				5ACE714A29F2DCA70081346F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ACE715129F2DCC40081346F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE715629F2DE0A0081346F /* ExtensionsView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5ACE715229F2DCCF0081346F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE715829F2E01E0081346F /* ControlView.swift */,
+				5ACE715A29F2E5420081346F /* CustomSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5ACE715329F2DCE10081346F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE715429F2DD1A0081346F /* SliderConfiguration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACE714629F2DCA50081346F /* ContentView.swift in Sources */,
+				5ACE715B29F2E5420081346F /* CustomSlider.swift in Sources */,
 				5ACE714429F2DCA50081346F /* iOSControlCenterApp.swift in Sources */,
+				5ACE715729F2DE0A0081346F /* ExtensionsView.swift in Sources */,
+				5ACE715529F2DD1A0081346F /* SliderConfiguration.swift in Sources */,
+				5ACE715929F2E01E0081346F /* ControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
